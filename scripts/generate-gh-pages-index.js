@@ -9,7 +9,7 @@ if (!fs.existsSync(clientDir) || !fs.existsSync(assetsDir)) {
 }
 
 const files = fs.readdirSync(assetsDir)
-const entryFile = files.find((file) => /^index-[a-zA-Z0-9]+\.js$/.test(file))
+const entryFile = files.find((file) => /^index-[a-zA-Z0-9_-]+\.js$/.test(file))
 
 if (!entryFile) {
   throw new Error('Could not find client entry JS file in dist/client/assets.')
@@ -22,7 +22,7 @@ const html = `<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Sai Sasir K — Gen-AI & ML Engineer portfolio" />
     <title>Ssk</title>
-    <base href="/portfolio1/" />
+    <base href="/portfolio/" />
   </head>
   <body class="dark">
     <div id="root"></div>
