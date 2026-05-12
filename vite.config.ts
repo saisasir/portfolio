@@ -5,7 +5,7 @@ import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 const config = defineConfig({
-  base: '/portfolio1/',
+  base: '/portfolio/',
   resolve: { tsconfigPaths: true },
   server: {
     open: true,
