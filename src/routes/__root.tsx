@@ -33,14 +33,14 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Ssk" },
+      { title: "Sai Sasir's Portfolio" },
       {
         name: "description",
         content:
           "Sai Sasir K — Gen-AI & ML Engineer specializing in large language models, RAG pipelines, autonomous agents, and production ML systems.",
       },
       { name: "author", content: "Sai Sasir K" },
-      { property: "og:title", content: "Ssk" },
+      { property: "og:title", content: "Sai Sasir's Portfolio" },
       {
         property: "og:description",
         content:
@@ -48,7 +48,7 @@ export const Route = createRootRoute({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Ssk" },
+      { name: "twitter:title", content: "Sai Sasir's Portfolio" },
       { name: "description", content: "A professional portfolio website showcasing expertise, projects, and skills for a Gen-AI & ML Engineer." },
       { property: "og:description", content: "A professional portfolio website showcasing expertise, projects, and skills for a Gen-AI & ML Engineer." },
       { name: "twitter:description", content: "A professional portfolio website showcasing expertise, projects, and skills for a Gen-AI & ML Engineer." },
