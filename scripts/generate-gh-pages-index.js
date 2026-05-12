@@ -21,7 +21,7 @@ const html = `<!DOCTYPE html>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Sai Sasir K — Gen-AI & ML Engineer portfolio" />
-    <title>Ssk</title>
+    <title>Sai Sasir's Portfolio</title>
     <base href="/portfolio/" />
   </head>
   <body class="dark">
